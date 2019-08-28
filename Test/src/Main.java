@@ -15,7 +15,7 @@ public static JSONArray globArr;
 	  globArr = new JSONArray();
 	{
 		  globArr = jsonGetRequest("http://www.mocky.io/v2/5c51b9dd3400003252129fb5");
-		  System.out.println(Adder.creator(Adder.collector()));
+		  System.out.println(Sclass.creator(Sclass.collector()));
 	}
   }
   private static String streamToString(InputStream inputStream) {

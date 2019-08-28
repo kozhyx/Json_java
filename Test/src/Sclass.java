@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import org.json.JSONObject;
 import com.google.gson.Gson;
-public class Adder extends Thread{
+public class Sclass{
 	
 	
 	

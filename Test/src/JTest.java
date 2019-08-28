@@ -30,7 +30,7 @@ class JTest {
 	{
 		List<String> a = new ArrayList<String>();
 		 Main.globArr = Main.jsonGetRequest("http://www.mocky.io/v2/5c51b9dd3400003252129fb5");
-		a = Adder.GetURLs("http://www.mocky.io/v2/5c51b9dd3400003252129fb5", "sourceDataUrl");
+		a = Sclass.GetURLs("http://www.mocky.io/v2/5c51b9dd3400003252129fb5", "sourceDataUrl");
 		if(a.size()>4)Assert.fail("Error");
 	}
 	
@@ -39,7 +39,7 @@ class JTest {
 	{
 		List<String> a = new ArrayList<String>();
 		 Main.globArr = Main.jsonGetRequest("http://www.mocky.io/v2/5c51b9dd3400003252129fb5");
-		a = Adder.GetOBJ("http://www.mocky.io/v2/5c51b230340000094f129f5d", "urlType");
+		a = Sclass.GetOBJ("http://www.mocky.io/v2/5c51b230340000094f129f5d", "urlType");
 		if(a.size()>2)Assert.fail("Error");
 	}
 
