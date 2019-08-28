@@ -7,7 +7,7 @@ public class Sclass{
 	
 	
 	public static List<String> GetURLs( String url, String key ) {
-			System.out.println("Идет получение URL");
+			
 		  
 		  List<String> spis = new ArrayList<String>();
 		for(int i = 0; i < Main.globArr.length();i++)
@@ -17,7 +17,7 @@ public class Sclass{
 		return spis;
 		}
 	public static List<String> GetOBJ( String url, String key ) {
-		System.out.println("Идет получение объекта");
+		System.out.println("Г€Г¤ГҐГІ ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ Г®ГЎГєГҐГЄГІГ ");
 		JSONObject arr = new JSONObject();
 		  arr  = Main.jsonGetRequestObject(url);
 		  List<String> spis = new ArrayList<String>();
@@ -46,7 +46,7 @@ public class Sclass{
 	}
 	public static String creator(List<Cameras> a)
 	{
-		System.out.println("Конвертация в джосн");
+		
 		Gson gson = new Gson();
 		 String jsonCartList = gson.toJson(a);
 		 return jsonCartList;
